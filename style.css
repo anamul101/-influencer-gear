@@ -15,7 +15,7 @@ body a{
 #container{
     width: 1180px;
     background-color: #fff;
-    margin: auto;
+    margin:0 auto;
     padding: 50px 30px;
 }
 
@@ -23,7 +23,6 @@ body a{
 .curcle{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
-    
     background-position: 85% 50%;
     background-size: 30%;
 
@@ -71,4 +70,81 @@ body a{
 .banner-img img{
     width:75%;
     
+}
+
+/* sponser styles */
+.sponser-img{
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #AAA;
+    margin: auto;
+    padding: 30px 60px;
+}
+
+/* Popular Collection */
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    width: 980px;
+    margin: auto;
+    border: 1px solid black;
+}
+.popular-title{
+    color: #3A3A3A;
+    font-size: 28px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 260px;
+}
+.single-box{
+    width: 250px;
+    padding: 14px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.popular-img img{
+    width: 100%;
+}
+.box-description{
+    margin-top: 16px;
+}
+.box-icon{
+    display: flex;
+    align-items: baseline;
+    font-size: 12px;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+}
+.box-title{
+    font-size: 28px;
+    color: #18191F;
+    margin: 0;
+}
+.box-count{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    margin: 0;
+}
+.box-icon p{
+    margin: 0;
+   
+}
+.fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+}
+.articles{
+    font-size: 14px;
+    color: #787885;
+    margin-top: 16px;
+}
+.fa-arrow-right-long{
+    text-align:right;
+    color: #FB8200;
 }
